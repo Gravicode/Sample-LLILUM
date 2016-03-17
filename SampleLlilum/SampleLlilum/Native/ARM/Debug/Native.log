@@ -1,0 +1,137 @@
+﻿  mbed_asm.S
+  startup_stm32f401xe.S
+  pch.h
+  pch.h
+  Source.cpp
+  mbed_adc.cpp
+  mbed_clock.cpp
+  mbed_core.cpp
+  mbed_debug.cpp
+  mbed_ethernet.cpp
+  mbed_gpio.cpp
+  mbed_i2c.cpp
+  mbed_mem.cpp
+  mbed_memory.cpp
+  mbed_nvic.cpp
+  mbed_overrides.cpp
+  mbed_pwm.cpp
+  mbed_serial.cpp
+  mbed_socket.cpp
+  mbed_spi.cpp
+  mbed_system_timer.cpp
+  mbed_systick.cpp
+  mbed_threading.cpp
+  mbed_unwind.cpp
+  Generating native code for "E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Managed\bin\Debug\Llilum.Managed.exe"
+       2.571 [   2.571]: ConvertToIR
+       2.998 [   0.427]: Done
+       2.998 [   0.000]: ResolveAll
+       8.282 [   5.284]: Done
+       8.282 [   0.000]: ExecuteSteps
+  
+  Phase Ordering:
+    0: ReduceNumberOfTemporaries
+    1: TransformFinallyBlocksIntoTryBlocks
+    2: ApplyClassExtensions
+    3: PrepareImplementationOfInternalMethods
+    4: CrossReferenceTypeSystem
+    5: ApplyConfigurationSettings
+    6: ResourceManagerOptimizations (Disabled)
+    7: HighLevelTransformations
+    8: PropagateCompilationConstraints
+    9: ComputeCallsClosure
+    10: EstimateTypeSystemReduction
+    11: CompleteImplementationOfInternalMethods
+    12: ReduceTypeSystem
+    13: PrepareExternalMethods (Disabled)
+    14: DetectNonImplementedInternalCalls
+    15: OrderStaticConstructors
+    16: LayoutTypes
+    17: HighLevelToMidLevelConversion
+    18: FromImplicitToExplicitExceptions
+    19: ReferenceCountingGarbageCollection
+    20: MidLevelToLowLevelConversion (Disabled)
+    21: ConvertUnsupportedOperatorsToMethodCalls (Disabled)
+    22: ExpandAggregateTypes (Disabled)
+    23: SplitComplexOperators (Disabled)
+    24: FuseOperators (Disabled)
+    25: Optimizations
+    26: ConvertToSSA (Disabled)
+    27: PrepareForRegisterAllocation (Disabled)
+    28: CollectRegisterAllocationConstraints (Disabled)
+    29: AllocateRegisters (Disabled)
+    30: GenerateImage
+    31: Done
+  
+  
+  Compiling...
+  
+       8.318 [   0.036]: Phase: ReduceNumberOfTemporaries                          [types:  4163,  fields:   4827,  methods:  26642]
+      12.823 [   4.504]: Phase: TransformFinallyBlocksIntoTryBlocks                [types:  4163,  fields:   4827,  methods:  26642]
+      13.447 [   0.624]: Phase: ApplyClassExtensions                               [types:  4163,  fields:   4827,  methods:  26642]
+      81.917 [  68.470]: Phase: PrepareImplementationOfInternalMethods             [types:  4079,  fields:   4813,  methods:  26166]
+      87.813 [   5.896]: Phase: CrossReferenceTypeSystem                           [types:  4079,  fields:   4904,  methods:  26415]
+      88.256 [   0.443]: Phase: ApplyConfigurationSettings                         [types:  4079,  fields:   4904,  methods:  26415]
+  Garbage collector selected: Microsoft.Llilum.STM32F401.GarbageCollectionManager
+  Skipping phase: ResourceManagerOptimizations
+      92.017 [   3.761]: Phase: HighLevelTransformations                           [types:  4079,  fields:   4904,  methods:  26415]
+  NOTICE: Processing for method 'void Microsoft.Zelig.MetaData.Normalized.Instruction::.cctor()' took 1824 milliseconds and 12 iterations! [588 variables and 1185 operators]
+  
+     105.888 [  13.871]: Phase: PropagateCompilationConstraints                    [types:  4079,  fields:   5321,  methods:  26415]
+     105.996 [   0.109]: Phase: ComputeCallsClosure                                [types:  4079,  fields:   5321,  methods:  26415]
+     108.594 [   2.597]: Phase: EstimateTypeSystemReduction                        [types:  4079,  fields:   5321,  methods:  26415]
+     108.858 [   0.265]: Phase: CompleteImplementationOfInternalMethods            [types:  4079,  fields:   5321,  methods:  26415]
+     109.288 [   0.430]: Phase: HighLevelTransformations                           [types:  4079,  fields:   5321,  methods:  26415]
+     113.192 [   3.904]: Phase: PropagateCompilationConstraints                    [types:  4079,  fields:   5321,  methods:  26415]
+     113.313 [   0.121]: Phase: ComputeCallsClosure                                [types:  4079,  fields:   5321,  methods:  26415]
+     115.953 [   2.640]: Phase: EstimateTypeSystemReduction                        [types:  4079,  fields:   5321,  methods:  26415]
+     116.219 [   0.266]: Phase: CompleteImplementationOfInternalMethods            [types:  4079,  fields:   5321,  methods:  26415]
+     116.221 [   0.002]: Phase: ReduceTypeSystem                                   [types:  4079,  fields:   5321,  methods:  26415]
+  Skipping phase: PrepareExternalMethods
+     117.029 [   0.808]: Phase: DetectNonImplementedInternalCalls                  [types:   360,  fields:    630,  methods:   1467]
+     117.030 [   0.002]: Phase: OrderStaticConstructors                            [types:   360,  fields:    630,  methods:   1467]
+     117.110 [   0.080]: Phase: LayoutTypes                                        [types:   360,  fields:    630,  methods:   1467]
+     118.108 [   0.997]: Phase: HighLevelToMidLevelConversion                      [types:   360,  fields:    630,  methods:   1467]
+     122.071 [   3.964]: Phase: FromImplicitToExplicitExceptions                   [types:   360,  fields:    630,  methods:   1467]
+     123.859 [   1.788]: Phase: ReferenceCountingGarbageCollection                 [types:   360,  fields:    630,  methods:   1467]
+  Skipping phase: MidLevelToLowLevelConversion
+  Skipping phase: ConvertUnsupportedOperatorsToMethodCalls
+  Skipping phase: ExpandAggregateTypes
+  Skipping phase: SplitComplexOperators
+  Skipping phase: FuseOperators
+     123.861 [   0.003]: Phase: Optimizations                                      [types:   360,  fields:    630,  methods:   1467]
+  Skipping phase: ConvertToSSA
+  Skipping phase: PrepareForRegisterAllocation
+  Skipping phase: CollectRegisterAllocationConstraints
+  Skipping phase: AllocateRegisters
+     124.336 [   0.475]: Phase: GenerateImage                                      [types:   360,  fields:    630,  methods:   1467]
+       0.000183: START ##########################################################################
+       0.000215: Round: 1
+       0.000221: Emitting...
+       7.773905: Done emitting
+       7.810652: Done
+     134.139 [   9.802]: Phase: Done                                               [types:   360,  fields:    630,  methods:   1467]
+     143.007 [   8.869]: Done
+     143.008 [   0.000]: Saving Results for ARM\Debug\Llilum.Managed
+     143.008 [   0.000]:     Image...
+     143.499 [   0.492]:     Image done
+  Writing LLVM Bitcode representation
+  Optimizing LLVM Bitcode representation
+  ===== Alias Analysis Evaluator Report =====
+    645082 Total Alias Queries Performed
+    220796 no alias responses (34.2%)
+    417021 may alias responses (64.6%)
+    3468 partial alias responses (0.5%)
+    3797 must alias responses (0.5%)
+    Alias Analysis Evaluator Pointer Alias Summary: 34%/64%/0%/0%
+    252358 Total ModRef Queries Performed
+    106945 no mod/ref responses (42.3%)
+    420 mod responses (0.1%)
+    3403 ref responses (1.3%)
+    141590 mod & ref responses (56.1%)
+    Alias Analysis Evaluator Mod/Ref Summary: 42%/0%/1%/56%
+  Compiling LLVM Bitcode
+     150.596 [   7.096]: Done
+  Native.vcxproj -> E:\Experiment\IOT4BDG\SampleLlilum\ARM\Debug\SampleLlilum.elf
+     text	   data	    bss	    dec	    hex	filename
+   162848	   2940	   1152	 166940	  28c1c	E:\Experiment\IOT4BDG\SampleLlilum\ARM\Debug\SampleLlilum.elf

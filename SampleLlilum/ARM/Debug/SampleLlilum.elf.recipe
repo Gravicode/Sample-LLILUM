@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths>E:\Experiment\IOT4BDG\SampleLlilum\ARM\Debug\SampleLlilum.elf;C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\prebuilt\android-arm\gdbserver\gdbserver</SOLibPaths>
+  <OObjPaths>E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Native\ARM\Debug;ARM\Debug\Llilum.Managed_opt.o</OObjPaths>
+  <Configuration>Debug</Configuration>
+  <Platform>ARM</Platform>
+  <AndroidArchitecture>armeabi-v7a</AndroidArchitecture>
+  <!--links to other recipe files-->
+  <RecipeFiles />
+</project>

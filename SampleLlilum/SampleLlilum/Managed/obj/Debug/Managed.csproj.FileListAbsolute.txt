@@ -1,0 +1,5 @@
+E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Managed\bin\Debug\Llilum.Managed.exe
+E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Managed\bin\Debug\Llilum.Managed.pdb
+E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Managed\obj\Debug\Managed.csprojResolveAssemblyReference.cache
+E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Managed\obj\Debug\Llilum.Managed.exe
+E:\Experiment\IOT4BDG\SampleLlilum\SampleLlilum\Managed\obj\Debug\Llilum.Managed.pdb
